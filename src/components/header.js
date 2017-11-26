@@ -17,6 +17,7 @@ class Header extends Component {
                 <NavLink exact className="list-group-item" activeClassName="active" to="/">Home</NavLink>
                 <NavLink className="list-group-item" activeClassName="active" to="/product">Product</NavLink>
                 <NavLink className="list-group-item" activeClassName="active" to="/content">Content</NavLink>
+                <NavLink className="list-group-item" activeClassName="active" to="/form">Form</NavLink>
             </div>
         )
     }
